@@ -13,22 +13,18 @@
 #playMusicBtn:hover {
   background-color: #9eeaff;
 }
-.falling-star {
-  position: fixed;
-  top: -10px;
-  left: 0;
-  width: 0;
-  height: 0;
-  color: gold;
-  font-size: 18px;
-  animation: fall linear forwards;
-  pointer-events: none;
-  opacity: 0.8;
-}
 
-@keyframes fall {
+@keyframes falling {
+  from {
+    top: -30px;
+    opacity: 1;
+  }
   to {
-    transform: translateY(100vh);
+    top: 100vh;
     opacity: 0;
   }
+}
+
+.falling-star {
+  pointer-events: none; /* 让它们不会挡住点击 */
 }
