@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Nana! 🎂</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to top, #ffe4f1, #fffbf5);
+      font-family: 'Fredoka One', cursive;
+      color: #333;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .decor {
+      position: absolute;
+      width: 80px;
+      opacity: 0.8;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .image-container {
+      margin-top: 60px;
+    }
+
+    .image-container img {
+      max-width: 80%;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .message {
+      margin: 40px auto;
+      padding: 20px;
+      max-width: 600px;
+      background-color: #fff3fc;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .footer {
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <button id="playMusicBtn">💖 Play Our Song</button>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Honey</title>
+  <style>
+    body {
+      background-color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #imageContainer {
+      position: relative;
+      width: 600px;
+      max-width: 90%;
+    }
+
+    #mainImage {
+      width: 100%;
+      border-radius: 20px;
+      transition: opacity 2s ease;
+    }
+
+    #blowButton {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: #ffb6b9;
+      color: #222;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    #blowButton:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="imageContainer">
+    <img id="mainImage" src="https://i.imgur.com/spnTB2O.png" alt="Birthday Image">
+  </div>
+
+  <button id="blowButton">Make a wish 🕯️</button>
+
+  <script>
+    const button = document.getElementById('blowButton');
+    const image = document.getElementById('mainImage');
+
+    button.addEventListener('click', () => {
+      // 先让图片慢慢消失
+      image.style.opacity = '0';
+
+      // 等2秒后换成熄灭蜡烛的图
+      setTimeout(() => {
+        image.src = 'https://i.imgur.com/Pog4gJ9.png';
+        image.style.opacity = '1';
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
+
+  </div>
+  <div class="message">
+    Happy birthday my most wonderful and beautiful wifey!! 💛🐸<br /><br />
+    I hope you would be the most happy on this day and everyday after this in the world with me. 🥹🌷<br /><br />
+    I'm so blessed to know you and to love you, I can't wait to spend the rest of my life with you honey. 🎂🧝🏻‍🧛🏻‍♀️
+  </div>
+  <div class="footer">With all the love in the world — Yuki ✨</div>
+
+  <!-- Decorations (example only, full version would use real SVGs/images) -->
+  <img class="decor" style="top: 40px; left: 10px;" src="https://emojicdn.elk.sh/🍓" />
+  <img class="decor" style="top: 100px; right: 20px;" src="https://emojicdn.elk.sh/🐸" />
+  <img class="decor" style="bottom: 100px; left: 50px;" src="https://emojicdn.elk.sh/🌿" />
+  <img class="decor" style="bottom: 60px; right: 40px;" src="https://emojicdn.elk.sh/🌈" />
+</body>
+  <script>
+  function createFallingStar() {
+    const star = document.createElement('div');
+    star.classList.add('falling-star');
+    star.innerText = '⭐'; // 真·星星！
+    star.style.left = Math.random() * window.innerWidth + 'px';
+    star.style.fontSize = (Math.random() * 10 + 14) + 'px';
+    star.style.animationDuration = (Math.random() * 3 + 2) + 's';
+    document.body.appendChild(star);
+
+    setTimeout(() => {
+      star.remove();
+    }, 5000);
+  }
+
+  setInterval(createFallingStar, 300); // 每 300 毫秒掉一颗星
+</script>
+
+</html>
